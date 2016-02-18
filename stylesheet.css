@@ -30,15 +30,15 @@
 	margin: 10px;
 }
 
-#right{
+#image1{
 	z-index: -1;
 	position: relative;
 	float: right;
-	margin-top: 30px;
-	margin-right: 120px;
-	width: 680px;
-	height: 510px;
-	background-image:url("./images/background_image.jpg");
+	margin-top: 130px;
+	margin-right: -20px;
+	width: 615px;
+	height: 410px;
+	background-image:url("./images/background_image_1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -58,8 +58,8 @@
 h2{
 	text-align: center;
 	font-size: 30px;
-	color: rgb(180,40,45);
 	font-family: Tahoma, Geneva;
+	color: rgb(122,106,29);
 }
 
 #bookmarks div{
@@ -78,14 +78,14 @@ h2{
 	margin-top: 8px;
 	font-size: 14px;
 	font-weight: bold;
-	color: rgb(180,40,45);
 	font-family: Tahoma, Geneva;
 	border: 1px solid gray;
 	border-radius: 5px;
-	background-color: #e5e5f5;
+	color: rgb(122,106,29);
+	background-color: #e5f5e5;
 	padding: 5px;
 }
 
 #bookmarks a:hover{
-	background-color: #d5d5e5;
+	background-color: #d5e5d5;
 }
