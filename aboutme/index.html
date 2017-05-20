@@ -163,8 +163,8 @@
                 <h3>Swarm</h3>
                 <h4>A Video Game I Created</h4>
                 <p>During my reading break, I set out to make my first video game. The game is written in Python, and the GUI was created with pygame. I started writing Swarm, with hopes of making it playable on a Super Nintendo Entertainment System (SNES); so I made the game such that can be played using only 7 buttons. The game was "finished" well before I modified it for the SNES, but to do so, I had to get around the SNES controller timing protocol. Every 20 ms, the SNES sends the controller a portion of a 83 kHz square wave, and on a different line, the controller sends back a high pulse during the first period of the square wave if "B" is pressed, the second period if "Y" is pressed, and so on for each button on the controller. My Raspberry Pi could not read the GPIO pins fast enough to correctly distinguish which buttons were being pushed, so I had to program an FPGA to convert this timing protocol into 7 wires running to my Pi, where each wire was logic high if its corresponding button was pressed, and low otherwise. It worked like a charm!</p>
-                <p>When I finished the SNES project, I still continued to update the PC game. I have spent a lot of time playing it, so much so in fact, that my high score is Level 21. You can download the latest version below. Instructions on how to play, and the source code can be found <a href="https://github.com/RyanCotsakis/Swarm" target="_blank">here</a>.</p>
-                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Swarm/raw/master/Swarm.exe">PC Download (~7 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p>When I finished the SNES project, I still continued to update the PC game. I have spent a lot of time playing it, so much so in fact, that my high score is Level 21. You can download the latest version below. I have recently updated the game such that it can be played over one's home network with another PC (This feature is in its early stages; it may be buggy). Instructions on how to play, and the source code can be found <a href="https://github.com/RyanCotsakis/Swarm" target="_blank">here</a>.</p>
+                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Swarm/raw/master/Swarm.zip">PC Download (10.5 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
 
@@ -202,7 +202,7 @@
         <hr>
 
         <p>Contact: ryancotsakis@gmail.com</p>
-        <p>Last Modified: 4/5/2017</p>
+        <p>Last Modified: 20/5/2017</p>
     </div>
     <!-- /.container -->
 
