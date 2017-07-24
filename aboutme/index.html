@@ -145,17 +145,6 @@
         <hr>
 
         <div class="row">
-            <div class="col-md-12">
-                <h3>Github</h3>
-                <h4><a href="https://github.com/ryancotsakis" target="_blank">github.com/ryancotsakis</a></h4>
-                <p>It was my first year in university that I learnt how to write code. I took an "Introduction to programming with C" course, and from the skills I learnt in that course alone, I was able to write a chess opponent in C (<a href="https://github.com/ryancotsakis/chess" target="_blank">Chess</a>). I also wrote a Suduko solver (<a href="https://github.com/ryancotsakis/sudoku" target="_blank">Sudoku</a>), a maze generator (<a href="https://github.com/ryancotsakis/corn-maze" target="_blank">Corn-Maze</a>), and few other projects, all written in C. I am very interested cryptography, and so I made an executable file in windows that would encrypt and decrypt text documents (<a href="https://github.com/ryancotsakis/cryptography" target="_blank">Cryptography</a>). It's the only software I use to store all of my passwords on.</p>
-                <a class="btn btn-primary" href="https://github.com/ryancotsakis" target="_blank">My Github<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="row">
             <div class="col-md-7">
                 <img class="img-responsive" src="../images/snes_swarm.jpg" alt="">
                 <p>My brother, playing Swarm on the Super Nintendo</p>
@@ -165,7 +154,28 @@
                 <h4>A Video Game I Created</h4>
                 <p>During my reading break, I set out to make my first video game. The game is written in Python, and the GUI was created with pygame. I started writing Swarm, with hopes of making it playable on a Super Nintendo Entertainment System (SNES); so I made the game such that can be played using only 7 buttons. The game was "finished" well before I modified it for the SNES, but to do so, I had to get around the SNES controller timing protocol. Every 20 ms, the SNES sends the controller a portion of a 83 kHz square wave, and on a different line, the controller sends back a high pulse during the first period of the square wave if "B" is pressed, the second period if "Y" is pressed, and so on for each button on the controller. My Raspberry Pi could not read the GPIO pins fast enough to correctly distinguish which buttons were being pushed, so I had to program an FPGA to convert this timing protocol into 7 wires running to my Pi, where each wire was logic high if its corresponding button was pressed, and low otherwise. It worked like a charm!</p>
                 <p>When I finished the SNES project, I still continued to update the PC game. I have spent a lot of time playing it, so much so in fact, that my high score is Level 21. You can download the latest version below. I have recently updated the game such that it can be played over one's home network with another PC (This feature is in its early stages; it may be buggy). The source code can be found <a href="https://github.com/RyanCotsakis/Swarm" target="_blank">here</a>.</p>
-                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Swarm/raw/master/Swarm.zip">PC Download (10.5 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Swarm/raw/master/Swarm.zip">PC Download (10 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Github</h3>
+                <p>It was my first year in university that I learnt how to write code. I took an "Introduction to programming with C" course, and from the skills I learnt in that course alone, I was able to write a chess opponent in C (<a href="https://github.com/ryancotsakis/chess" target="_blank">Chess</a>). I also wrote a Suduko solver (<a href="https://github.com/ryancotsakis/sudoku" target="_blank">Sudoku</a>), a maze generator (<a href="https://github.com/ryancotsakis/corn-maze" target="_blank">Corn-Maze</a>), and few other projects, all written in C.</p>
+                <a class="btn btn-primary" href="https://github.com/ryancotsakis" target="_blank">My Github<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>enigma</h3>
+                <p>I should outline one more of my software projects in a little more detail, namely my <a href="https://github.com/ryancotsakis/cryptography" target="_blank">Cryptography</a> repository. I made a piece of software that encrypts and decrypts .txt files using a user defined password. I created the encryption algorithm myself, and as I learn more about cryptography, the more I am surprised to see how much similarity there is between my algorithm and existing encryption algorithms. Currently, it's the only software I use to store all of my passwords on.</p>
+                <p>Put simply, the way it works is the password supplied by the user is converted into a number <em>pwnum</em> somewhere in the order of 10<sup>20</sup>. The n<sup>th</sup> bit of the message is then switched during the encryption / decryption if <em>pwnum</em> (mod n) < n / 2, and is left as is otherwise. If you're looking for a secure and easy to use piece of software to store confidential information offline, give the link below a click!</p>
+                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Cryptography/raw/master/enigma.zip">PC Download (5 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
 
@@ -213,7 +223,7 @@
         <hr>
 
         <p>Contact: ryancotsakis@gmail.com</p>
-        <p>Last Modified: 24/7/2017</p>
+        <p>Last Modified: 25/7/2017</p>
     </div>
     <!-- /.container -->
 
