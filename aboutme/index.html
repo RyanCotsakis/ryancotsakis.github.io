@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">About Me</a>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/ryan-cotsakis-633407173/" target="_blank">LinkedIn</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -84,9 +84,9 @@
             <div class="col-md-5">
                 <h3>About Me</h3>
                 <h4>A Day in the Life</h4>
-                <p>Four years in Engineering and I'm still smiling... Here's a bit about how I manage that. I grew up and spent the first 3 years of my degree in the suburbs, North Delta, so I spent a lot of time going to and from school. Now, my living situation changes more frequently than I update this website. I enjoy commuting on my electric bicycle, and taking the bus when the weather's no good. On my free time, I love to think about mathematics and discuss it with my friends at school; but I also enjoy letting my friends back home take my mind off of it. I'm usually pretty busy juggling school, friends, and miscellaneous engineering projects, but it beats being bored! I also really enjoy skateboarding, programming, jogging, and hiking.</p>
+                <p>Five years in Engineering and I'm still smiling... Here's a bit about how I manage that. I grew up and spent the first 3 years of my degree in the suburbs, North Delta, so I spent a lot of time going to and from school. Now, my living situation changes more frequently than I update this website. I enjoy commuting on my electric bicycle, and taking the bus when the weather's no good. On my free time, I love to think about mathematics and discuss it with my friends at school; but I also enjoy letting my friends back home take my mind off of it. I'm usually pretty busy juggling school, friends, and miscellaneous engineering projects, but it beats being bored! I also really enjoy skateboarding, programming, jogging, and hiking.</p>
                 <h4>My Skills</h4>
-                <p>I have excellent analytical skills. I do math for fun, and I have a document full of original ideas on my laptop. I would like to move my career towards managing a technical team, as I have been successful in fulfilling that role in various projects. I can write in Python, MATLAB, and Java. I gained much experience with electronics while working in a team of four to build an autonomous robot, and aslo while manufacturing electric bicycles at Grin Technologies. I enjoyed the opportunity to be a part of a research group in Germany, where I was looking at atoms with an STM. And now, this Summer I will be working in a research group writing code for space robotics. I am well trained to work in a machine shop, and for what it's worth, I can also juggle and do a standing backflip (not at the same time).</p>
+                <p>I have excellent analytical skills. I do math for fun, and I have a document full of original ideas on my laptop. I would like to move my career towards managing a technical team, as I have been successful in fulfilling that role in various projects. I can write in Python, MATLAB, and Java. I gained much experience with electronics while working in a team of four to build an autonomous robot, and also while manufacturing electric bicycles at Grin Technologies. I enjoyed the opportunity to be a part of a research group in Germany, where I was looking at atoms with an STM. Just last Summer I was researching decentralized cooperative transport algorithms in Montréal. I am well trained to work in a machine shop, and for what it's worth, I can also juggle and do a standing backflip (not at the same time).</p>
             </div>
         </div>
 
@@ -96,13 +96,28 @@
 
         <div class="row">
             <div class="col-md-7">
+                <img class="img-responsive" src="../images/mtl.png" alt="">
+                <p>I'm calibrating the motion tracking system</p>
+            </div>
+            <div class="col-md-5">
+                <h3>Swarm Robotics Research</h3>
+                <h4>Polytechnique Montréal</h4>
+                <p>Just last Summer, I was working in the <a href="http://mistlab.ca/" target="_blank">MIST Lab</a> in Montréal researching decentralized algorithms for the cooperative transport of fabrics using micro-UAVs. The lab uses a novel programming language called <a href="https://github.com/MISTLab/Buzz" target="_blank">Buzz</a> to implement decentralized algorithms for swarm robotics. My job was to integrate this language (which is compiled with a C compiler) in Python so that I could send instructions from Buzz to the Crazyflie micro-UAVs over a radio dongle that is interfaced with through Python. I designed the system architecture for what I call PyBuzz, which allows one to step through Buzz scripts from within a Python script, and simulate the communication between robots on one or multiple Linux machines. Using PyBuzz, I implemented and tested novel collaborative transport algorithms with the Crazyflies. At the end of the experience, I summarized my results in a paper submitted to the 2019 International Conference on Robotics and Automation (ICRA). Still waiting to hear back from those guys, but I published a preprint on Arxiv, which can be accessed through the link below.</p>
+                <a class="btn btn-primary" href="https://arxiv.org/abs/1810.00522" target="_blank">Conference Preprint<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-7">
                 <img class="img-responsive" src="../images/wuerzburg_logo.jpg" alt="">
             </div>
             <div class="col-md-5">
                 <h3>Experimental Physics Research</h3>
                 <h4>University of Würzburg, Germany</h4>
-                <p>From May until September, I worked alongside graduate students performing physics research at the University of Würzburg. We were investigating the electronic structure of spin-orbit–coupled surfaces with atomic spatial resolution. We used a Scanning Tunnelling Microscope (STM) to image the atoms on the surfaces of the substrates, and it was my responsibility to operate the STM and to decipher how the spins were oriented on the surface of the samples.</p>
-                <p>You can read more about my experience in Europe by clicking the link below.</p>
+                <p>From May until September of 2017, I worked alongside graduate students performing physics research at the University of Würzburg. We were investigating the electronic structure of spin-orbit–coupled surfaces with atomic spatial resolution. We used a Scanning Tunnelling Microscope (STM) to image the atoms on the surfaces of the substrates, and it was my responsibility to operate the STM and to decipher how the spins were oriented on the surface of the samples. The team has put together a paper that is currently under review by Nature Communications, and in that paper is a discussion about my finding that MnO chains have a chiral magnetic structure on Ir(100).</p>
+                <p>While I was in living in Europe, I was keeping a weekly blog. You can read more about my experience in Europe by clicking the link below.</p>
                 <a class="btn btn-primary" href="./germany.html" target="_blank">Germany Blog<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
@@ -126,6 +141,21 @@
         <hr>
 
         <h2 id="projects">Projects</h2>
+
+        <div class="row">
+            <div class="col-md-7">
+                <img class="img-responsive" src="../images/clusters.png" alt="">
+                <p>Points partitioned by a clustering algorithm. The algorithm decides how many colours to use, and which colour to assign to each point.</p>
+            </div>
+            <div class="col-md-5">
+                <h3>Topology Tool Kit (TTK)</h3>
+                <h4>Topological Data Analysis Clustering Algorithm</h4>
+                <p>Given a set of points, it is extremely useful for applications like machine learning to have a computer partition the points into clusters of high density. Currently, a classmate and I are looking into how to use a concept from topological data analysis called <em>persistence</em> to categorize points into clusters. We are working to have the algorithm automatically decide how to assign these clusters with no user input, but also allowing the user of the software to manually change parameters. We are implementing our algorithm as an extension of TTK, and we are working directly with the creators of TTK to achieve this.</p>
+                <a class="btn btn-primary" href="https://topology-tool-kit.github.io/" target="_blank">TTK Homepage<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+
+        <hr>
 
         <div class="row">
         	<div class="col-md-7">
@@ -153,7 +183,6 @@
                 <h3>Autonomous Robot Competition</h3>
                 <h4>Winner</h4>
                 <p>My three teammates and I won the 2016 Engineering Physics robot competiton. Our challenge, which varies from year to year, was to make a miniature autonomous taxi robot that could pick up stuffed dolls that were emitting an IR signal, and drop them off at some specified location. Our robot, named Jett Pace, was built from raw materials cut on a water jet cutter. All of the electrical circuits were soldered onto PCBs and installed in our robot. I designed most of the signal processing circuits as well an also built the power transmission circuits. I also made a large contribution to the code as well. I mostly attribute our success to the fact that our team carried a variety of skills, and it was our ability to work in a team that lead us to win the competition. Please see our <a href="https://danielchawla.github.io/jett-pace-webpage/" target="_blank">web page</a> for more details.</p>
-                <a class="btn btn-primary" href="https://danielchawla.github.io/jett-pace-webpage/" target="_blank">Team Website<span class="glyphicon glyphicon-chevron-right"></span></a>
                 <a class="btn btn-primary" href="https://www.youtube.com/watch?v=CAR5WVmitQ8" target="_blank">Demonstration Video<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
@@ -170,7 +199,7 @@
                 <h4>A Video Game I Created</h4>
                 <p>During my reading break, I set out to make my first video game. The game is written in Python, and the GUI was created with pygame. I started writing Swarm, with hopes of making it playable on a Super Nintendo Entertainment System (SNES); so I made the game such that can be played using only 7 buttons. The game was "finished" well before I modified it for the SNES, but to do so, I had to get around the SNES controller timing protocol. Every 20 ms, the SNES sends the controller a portion of a 83 kHz square wave, and on a different line, the controller sends back a high pulse during the first period of the square wave if "B" is pressed, the second period if "Y" is pressed, and so on for each button on the controller. My Raspberry Pi could not read the GPIO pins fast enough to correctly distinguish which buttons were being pushed, so I had to program an FPGA to convert this timing protocol into 7 wires running to my Pi, where each wire was logic high if its corresponding button was pressed, and low otherwise. It worked like a charm!</p>
                 <p>When I finished the SNES project, I still continued to update the PC game. I have spent a lot of time playing it, so much so in fact, that my high score is Level 21. You can download the latest version below. I have recently updated the game such that it can be played over one's home network with another PC (This feature is in its early stages; it may be buggy). The source code can be found <a href="https://github.com/RyanCotsakis/Swarm" target="_blank">here</a>.</p>
-                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Swarm/raw/master/Swarm.zip">PC Download (10 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Swarm/raw/master/Swarm.zip">Swarm (Windows, 10 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
 
@@ -180,11 +209,11 @@
             <div class="col-md-12">
                 <h3>Github</h3>
                 <h4><a href="https://github.com/ryancotsakis" target="_blank">github.com/ryancotsakis</a></h4>
-                <p>It was my first year in university that I learnt how to write code. I took an "Introduction to programming with C" course, and from the skills I learnt in that course alone, I was able to write a chess opponent in C (<a href="https://github.com/ryancotsakis/chess" target="_blank">Chess</a>), a Suduko solver (<a href="https://github.com/ryancotsakis/sudoku" target="_blank">Sudoku</a>), and a maze generator (<a href="https://github.com/ryancotsakis/corn-maze" target="_blank">Corn-Maze</a>) all written in C.</p>
-                <p>I wrote a piece of software called <a href="https://github.com/RyanCotsakis/Homeworker" target="_blank">Homeworker</a> to keep track of the tasks I have to get done, and how long it takes to complete each task. I am finding that it is an effective motivator to not enter a state of distraction (like the one I am in right now). A windows executable can be downloaded below.</p>
-                <p>I should outline one more of my software projects in a little more detail, namely my <a href="https://github.com/ryancotsakis/cryptography" target="_blank">Cryptography</a> repository. It encrypts and decrypts .txt files using a user defined password. I created the encryption algorithm myself, and as I learn more about cryptography, the more I am surprised to see how much similarity there is between my algorithm and existing encryption algorithms. Currently, it's the only software on which I use to store all of my passwords. I call it... Enigma.</p>
-                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Homeworker/raw/master/homeworker.zip">Homeworker (2.5 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Cryptography/raw/master/enigma.zip">Enigma (5 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p>It was my first year in university that I learnt how to write code. I took an "Introduction to programming with C" course, and from the skills I learnt in that course alone, I started my own projects for the fun of it. I wrote a chess opponent (<a href="https://github.com/ryancotsakis/chess" target="_blank">Chess</a>), a Suduko solver (<a href="https://github.com/ryancotsakis/sudoku" target="_blank">Sudoku</a>), and a maze generator (<a href="https://github.com/ryancotsakis/corn-maze" target="_blank">Corn-Maze</a>) all written in C.</p>
+                <p>I should outline one more of my software projects in a little more detail, namely my <a href="https://github.com/ryancotsakis/cryptography" target="_blank">Cryptography</a> repository. It encrypts and decrypts .txt files using a user defined password. I created the encryption algorithm myself, and as I learn more about cryptography, the more I am surprised to see how much similarity there is between my algorithm and existing encryption algorithms. Currently, it's the only software on which I use to store all of my passwords. Inspired by the German code used in WWII, I named it Enigma.</p>
+                <a class="btn btn-primary" href="https://github.com/RyanCotsakis/Cryptography/raw/master/enigma.zip">Enigma (Windows, 5 MB)<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p></p>
+                <p>An additional project that I was working on while I was in Montréal is called <a href="https://github.com/RyanCotsakis/PyPoker", target="_blank">PyPoker</a>. Here, I built a neural network that is capable of playing Texas Hold'em against itself, and creating a winning betting strategy that it can use against a human player in a simulated game environment.</p>
             </div>
         </div>
 
@@ -240,7 +269,7 @@
             <div class="col-md-12">
                 <h3>Engineering Physics</h3>
                 <h4>Graduate Representative</h4>
-                <p>I am entering my fifth year of Engineering Physics at UBC, representing the entire graduate class in the Engineering Physics Undergraduate Society. Eng Phys is the most intensive, and competitive engineering program offered at UBC, partly due the number of credits we have to take, but also the amount of math and physics we take is comparable to a major in just that field. In fact, because I have taken extra MATH and ELEC courses, I will be graduating with a minor in honours mathematics and a specialization in electrical engineering. The first large project course in Engineering Physics is the Engineering Physics robot competition described above. For the second project course, we founded Increment Fitness. I am currently maintaining an average of 90% in all of my classes, and I think more importantly, I'm really enjoying them. Check out the link below for more information about Engineering Physics.</p>
+                <p>I am in my fifth year of Engineering Physics at UBC, representing the entire graduate class in the Engineering Physics Undergraduate Society. Eng Phys is the most intensive, and competitive engineering program offered at UBC, partly due the number of credits we have to take, but also the amount of math and physics we take is comparable to a major in just that field. In fact, because I have taken extra MATH and ELEC courses, I will be graduating with a minor in honours mathematics and a specialization in electrical engineering. The first large project course in Engineering Physics is the Engineering Physics robot competition described above. For the second project course, we founded Increment Fitness. I am currently maintaining an average of 88% in all of my classes, and I think more importantly, I'm really enjoying them. Check out the link below for more information about Engineering Physics.</p>
                 <a class="btn btn-primary" href="http://www.engphys.ubc.ca/" target="_blank">Eng Phys Website<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
@@ -248,7 +277,7 @@
         <hr>
 
         <p>Contact: ryancotsakis@gmail.com</p>
-        <p>Last Modified: 26/11/2017</p>
+        <p>Last Modified: 2018.11.10</p>
     </div>
     <!-- /.container -->
 
