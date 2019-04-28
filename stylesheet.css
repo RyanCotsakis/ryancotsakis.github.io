@@ -91,11 +91,11 @@ h2{
 	z-index: -1;
 	position: relative;
 	float: right;
-	margin-top: 30px;
-	margin-bottom: 29px;
-	margin-right: 60px;
-	width: 330px;
-	height: 480px;
+	margin-top: 90px;
+	margin-bottom: 89px;
+	margin-right: 40px;
+	width: 248px;
+	height: 360px;
 	background-image:url("./images/book.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -103,9 +103,18 @@ h2{
 	border-radius: 10px;
 }
 
-#image1 p{
-	font-size: 40px;
-	font-family: Tahoma, Geneva;
-	margin-top: -10px;
-	color: rgb(122,106,29)
+#image2{
+	z-index: -1;
+	position: relative;
+	float: right;
+	margin-top: 90px;
+	margin-bottom: 89px;
+	margin-right: 40px;
+	width: 248px;
+	height: 360px;
+	background-image:url("./images/maeve.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid gray;
+	border-radius: 10px;
 }
