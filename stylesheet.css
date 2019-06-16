@@ -90,9 +90,10 @@ h2{
 #image1{
 	z-index: -1;
 	position: relative;
+	clear: right;
 	float: right;
-	margin-top: 90px;
-	margin-bottom: 89px;
+	margin-top: 10px;
+	margin-bottom: 19px;
 	margin-right: 40px;
 	width: 248px;
 	height: 360px;
@@ -107,8 +108,8 @@ h2{
 	z-index: -1;
 	position: relative;
 	float: right;
-	margin-top: 90px;
-	margin-bottom: 89px;
+	margin-top: 10px;
+	margin-bottom: 19px;
 	margin-right: 40px;
 	width: 248px;
 	height: 360px;
@@ -117,4 +118,19 @@ h2{
 	background-repeat: no-repeat;
 	border: 1px solid gray;
 	border-radius: 10px;
+}
+
+.mission{
+	font-family: Georgia, serif;
+	z-index: -1;
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	margin-right: 220px;
+	color: rgb(122,106,29);
+	font-size: 16px;
+}
+
+.mission p{
+	font-family: Georgia, serif;
 }
