@@ -20,3 +20,40 @@ h2 {
 	margin: 30px;
 	margin-left: 40px;
 }
+
+.btn-primary {
+  color: #fff;
+  background-color: #777;
+  border-color: #666;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #8a8a8a;
+  border-color: #7a7a7a;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #8a8a8a;
+  border-color: #7a7a7a;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #aaa;
+  border-color: #999;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #aaa;
+  border-color: #999;
+}
